@@ -1,0 +1,59 @@
+html{background-image: linear-gradient(to right top, #d24194, #dc3d8b, #e53a81, #ec3976, #f23a6b, #f43866, #f63762, #f8365d, #f82e5f, #f92661, #f91b64, #f90966);
+height: 750px;
+font-family: 'Crimson Pro', serif;
+}
+
+.cover{
+     text-align: center;
+     font-size: 65px;    
+}
+input{
+    box-sizing: content-box;
+    width: 150px;
+    height:50px;
+}
+.content {
+padding-left: 270px;
+ width: 1000px; 
+}
+.leftDiv{
+float: left;
+}
+.rightDiv{
+float: right;
+}
+.resultDiv{
+padding-top: 200px;
+padding-left: 380px;;
+}
+
+@media screen and (max-width: 500px) {
+   
+.cover{
+    text-align: center;
+    font-size: 40px;    
+}
+input{
+   box-sizing: content-box;
+   width: 150px;
+   height:50px;
+   font-size: 20px;
+}
+.content {
+padding-left: 20px;
+width: 450px; 
+}
+.leftDiv{
+    font-size: 10px;
+float: left;
+}
+.rightDiv{
+    font-size: 10px;  
+float: right;
+}
+.resultDiv{
+padding-top: 200px;
+padding-left: 125px;;
+}
+
+  }
